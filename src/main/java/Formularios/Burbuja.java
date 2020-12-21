@@ -56,19 +56,19 @@ int aux;
 
         jLabel10.setText("Tiempo");
 
-        lblArregloOriginal.setText("Arreglo orignal");
+        lblArregloOriginal.setText("-");
 
-        lblArregloOrdenado.setText("Arreglo ordenado");
+        lblArregloOrdenado.setText("-");
 
-        lblComparaciones.setText("Comparaciones");
+        lblComparaciones.setText("-");
 
         jLabel1.setText("Tamaño");
 
-        lblIntercambios.setText("Intercambios");
+        lblIntercambios.setText("-");
 
         jLabel2.setText("Minimo");
 
-        lblTiempo.setText("Tiempo");
+        lblTiempo.setText("-");
 
         jLabel3.setText("Maximo");
 

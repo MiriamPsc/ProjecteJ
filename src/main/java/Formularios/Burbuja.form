@@ -139,21 +139,21 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblArregloOriginal">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Arreglo orignal"/>
+        <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtMaximo">
     </Component>
     <Component class="javax.swing.JLabel" name="lblArregloOrdenado">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Arreglo ordenado"/>
+        <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtTama&#xf1;o">
     </Component>
     <Component class="javax.swing.JLabel" name="lblComparaciones">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Comparaciones"/>
+        <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
@@ -163,7 +163,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblIntercambios">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Intercambios"/>
+        <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
@@ -173,7 +173,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblTiempo">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Tiempo"/>
+        <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">

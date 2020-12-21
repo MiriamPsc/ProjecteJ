@@ -87,25 +87,29 @@ public class fMenuAlgoritmos extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnCounting))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnCockTail, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnCockTail, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnRadiz, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnShell, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(btnRadiz, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnShell, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(82, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(22, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnBurbuja)
-                    .addComponent(btnCounting))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnCockTail)
-                    .addComponent(btnShell))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnRadiz)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap(22, Short.MAX_VALUE)
+                        .addComponent(btnBurbuja)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnCockTail)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnRadiz))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addComponent(btnCounting)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnShell)))
                 .addGap(90, 90, 90))
         );
 
@@ -113,23 +117,23 @@ public class fMenuAlgoritmos extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBurbujaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBurbujaActionPerformed
-//        new FormularioBurbuja().setVisible(true);
+        new Burbuja().setVisible(true);
     }//GEN-LAST:event_btnBurbujaActionPerformed
 
     private void btnCountingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCountingActionPerformed
-//        new FormularioCounting().setVisible(true);
+        new FCount().setVisible(true);
     }//GEN-LAST:event_btnCountingActionPerformed
 
     private void btnCockTailActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCockTailActionPerformed
-//        new FormularioCocktail().setVisible(true);
+        new CoctailSort().setVisible(true);
     }//GEN-LAST:event_btnCockTailActionPerformed
 
     private void btnShellActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnShellActionPerformed
-//        new FormularioShell().setVisible(true);
+        new Shell().setVisible(true);
     }//GEN-LAST:event_btnShellActionPerformed
 
     private void btnRadizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRadizActionPerformed
-//        new FormularioRadix().setVisible(true);
+        new Radix().setVisible(true);
     }//GEN-LAST:event_btnRadizActionPerformed
 
     /**

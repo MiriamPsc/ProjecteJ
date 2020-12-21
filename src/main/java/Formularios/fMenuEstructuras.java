@@ -42,6 +42,11 @@ public class fMenuEstructuras extends javax.swing.JFrame {
 
         btnArbol.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
         btnArbol.setText("ARBOL");
+        btnArbol.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnArbolActionPerformed(evt);
+            }
+        });
 
         btnGrafo.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
         btnGrafo.setText("GRAFO");
@@ -191,6 +196,10 @@ public class fMenuEstructuras extends javax.swing.JFrame {
     private void btnListaDobleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListaDobleActionPerformed
         new FListaDoble().setVisible(true);
     }//GEN-LAST:event_btnListaDobleActionPerformed
+
+    private void btnArbolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnArbolActionPerformed
+        new Arbol().setVisible(true);
+    }//GEN-LAST:event_btnArbolActionPerformed
 
     /**
      * @param args the command line arguments
